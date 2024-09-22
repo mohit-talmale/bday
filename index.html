@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .image-container-left, .image-container-right {
+            flex: 1;
+            text-align: center;
+        }
+
+        .image-container-left img, .image-container-right img {
+            border: 5px solid #000; /* Adds a black border to the images */
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .message-container {
+            flex: 2; /* Gives more space for the text */
+            text-align: center; /* Centers the text horizontally */
+            padding: 0 20px;
+        }
+
+        .message-container h1 {
+            color: purple;
+            font-size: 2.5rem;
+        }
+
+        .message-container p {
+            color: purple;
+            font-size: 1.37rem; /* Reduced the font size */
+            line-height: 1.5;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Left Image (ppp.png) -->
+    <div class="image-container-left">
+        <img src="ppp.png" alt="Photo" width="400" height="auto">
+    </div>
+
+    <!-- Message Container (Text in between) -->
+    <div class="message-container">
+        <h1>Happy Birthday, Prachi !!!</h1>
+        <p>
+            Wishing you a day filled with love, joy, and endless happiness. <br>
+            May all your dreams come true on this special day and always. <br>
+            Here's to another year of wonderful adventures and cherished moments! 🎉🎂🎁
+        </p>
+    </div>
+
+    <!-- Right Image (aaa.png) -->
+    <div class="image-container-right">
+        <img src="aaa.png" alt="Photo" width="400" height="auto">
+    </div>
+</body>
+</html>
